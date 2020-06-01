@@ -22,3 +22,10 @@ body {
 .font-half-regular {
     font-family: HalfRegular, sans-serif;
 }
+
+nav.navbar {
+    background: rgb(241, 241, 241);
+    background: rgba(241, 241, 241, 0.5);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
