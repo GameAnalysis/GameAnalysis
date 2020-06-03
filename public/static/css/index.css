@@ -12,6 +12,32 @@ body {
     background-repeat: no-repeat;
 }
 
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+}
+
+main .container .card .card-text {
+    -webkit-line-clamp: 2;
+    overflow : hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    min-height: 3rem;
+    max-height: 3rem;
+}
+
+
 @font-face {
     font-family: 'HalfRegular';
     src: url('../fonts/HalfRegular.woff2') format('woff2');
