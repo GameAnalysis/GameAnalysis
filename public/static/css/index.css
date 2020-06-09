@@ -1,11 +1,15 @@
 .landing {
     height: 100vh;
     min-height: 500px;
-    /*background-image: url('');*/
-    background-color: #212529;
+    background-image: url('../img/landing.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+.landing-backdrop {
+    background-color: rgba(0, 0, 0, 0.8);
+    height: 100%;
 }
 
 .bd-placeholder-img {
