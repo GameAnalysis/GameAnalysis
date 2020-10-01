@@ -1,7 +1,28 @@
+.navbar-collapse-no-border {
+    border: 0 !important;
+}
+.palette-1{
+    background-color: #0d0d0d !important;
+}
+.palette-2{
+    background-color: #101010 !important;
+}
+.palette-3{
+    background-color: #06041A !important;
+}
+
+.rem-10 {
+    height: 10rem;
+}
+
+.text-rem-2 {
+    font-size: 2rem;
+}
+
 .landing {
     height: 100vh;
     min-height: 500px;
-    background-image: url('../img/landing.jpg');
+    background-image: url(../img/landing.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -10,6 +31,24 @@
 .landing-backdrop {
     background-color: rgba(0, 0, 0, 0.8);
     height: 100%;
+}
+
+.landing-title{
+    color: #BFA77A;
+    font-size: 10vw !important;
+}
+
+.landing-description > div > h1 {
+    font-size: 2.5rem;
+}
+.landing-description > div > h3 {
+    padding-left: 20px;
+    font-size: 1.5rem;
+}
+.landing-description > div > a {
+    font-size: 1.4rem;
+    border-radius: 1rem;
+    border: 3px solid !important;
 }
 
 .bd-placeholder-img {
@@ -40,7 +79,7 @@ main .container .card .card-text {
 
 @font-face {
     font-family: 'HalfRegular';
-    src: url('../fonts/HalfRegular.woff2') format('woff2');
+    src: url(../fonts/HalfRegular.woff2) format('woff2');
     font-weight: normal;
     font-style: normal;
 }

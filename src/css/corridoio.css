@@ -1,0 +1,6 @@
+.borderss {
+    flex: 1,1,auto;
+    width: 10px;
+    height: 100%;
+    background-color: #000000;
+}
